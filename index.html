@@ -66,20 +66,20 @@
         <div class="conatiner-fluid">
             <div class="row">
                 <div class="features-box col-lg-4">
-                    <i class="fa-regular fa-circle-check fa-4x"></i>
+                    <i class="fa-regular fa-circle-check fa-4x icon"></i>
                     <h3>Easy to use.</h3>
-                    <p>So easy to use, even your dog could do it.</p>
+                    <p>So easy to use, with its all features.</p>
                 </div>
                 <div class="features-box col-lg-4">
-                    <i class="fa-solid fa-bullseye fa-4x"></i>
+                    <i class="fa-solid fa-bullseye fa-4x icon"></i>
                     <h3>Elite Clientele</h3>
-                    <p>We have all the dogs, the greatest dogs.</p>
+                    <p>We have all the new technology.</p>
                 </div>
 
                 <div class="features-box col-lg-4">
-                    <i class="fa-solid fa-heart fa-4x heart-icon"></i>
+                    <i class="fa-solid fa-heart fa-4x heart-icon icon"></i>
                     <h3>Guaranteed to work.</h3>
-                    <p>Find the love of your dog's life or your money back.</p>
+                    <p>Find the best experience and work.</p>
                 </div>
             </div>
         </div>
@@ -89,24 +89,41 @@
     <!-- Testimonials -->
 
     <section id="testimonials">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>The iPhone 15 surpasses all expectations with its sleek design, cutting-edge technology, and
+                        exceptional user experience.</h2>
+                    <img src="images/iphone-15.webp" alt="iphone 15" class="testimonial-image">
+                    <em>Pebbles, New York</em>
 
-        <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-        <img src="images/dog-img.jpg" alt="dog-profile">
-        <em>Pebbles, New York</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">Capture moments like never before with the iPhone 15's advanced camera
+                        system, featuring a triple-lens setup and enhanced Night mode.</h2>
+                    <img class="testimonial-image" src="images/iPhone-14-Pro.jpg" alt="lady-profile">
+                    <em>Beverly, Illinois</em>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
 
-        <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+            </button>
+        </div>
 
     </section>
 
     <!-- Press -->
 
     <section id="press">
-        <img src="images/techcrunch.png" alt="tc-logo">
-        <img src="images/tnw.png" alt="tnw-logo">
-        <img src="images/bizinsider.png" alt="biz-insider-logo">
-        <img src="images/mashable.png" alt="mashable-logo">
+
+        <img src="images/techcrunch.png" alt="tc-logo" class="press-image">
+        <img src="images/tnw.png" alt="tnw-logo" class="press-image">
+        <img src="images/bizinsider.png" alt="biz-insider-logo" class="press-image">
+        <img src="images/mashable.png" alt="mashable-logo" class="press-image">
 
     </section>
 
@@ -114,30 +131,62 @@
 
     <section id="pricing">
 
-        <h2>A Plan for Every Dog's Needs</h2>
-        <p>Simple and affordable price plans for your and your dog.</p>
+        <h2>A Plan for Everyone Needs</h2>
+        <p>Simple and affordable price plans for you.</p>
 
-        <h3>Chihuahua</h3>
-        <h2>Free</h2>
-        <p>5 Matches Per Day</p>
-        <p>10 Messages Per Day</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
 
-        <h3>Labrador</h3>
-        <h2>$49 / mo</h2>
-        <p>Unlimited Matches</p>
-        <p>Unlimited Messages</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
 
-        <h3>Mastiff</h3>
-        <h2>$99 / mo</h2>
-        <p>Pirority Listing</p>
-        <p>Unlimited Matches</p>
-        <p>Unlimited Messages</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Used-iphone</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>Free</h2>
+                            <p>5 Matches Per Day</p>
+                            <p>10 Messages Per Day</p>
+                            <p>Unlimited App Usage</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-lg btn-outline-success" type="button" >Sign Up</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>iphone 15</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>$49 / mo</h2>
+                            <p>Unlimited Matches</p>
+                            <p>Unlimited Messages</p>
+                            <p>Unlimited App Usage</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-lg btn-block btn-dark" type="button" >Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>iphone 15 Pro-Max</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>$99 / mo</h2>
+                            <p>Pirority Listing</p>
+                            <p>Unlimited Messages</p>
+                            <p>Unlimited App Usage</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-lg btn-block btn-dark" type="button" >Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     </section>
 
