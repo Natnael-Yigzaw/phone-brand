@@ -1,16 +1,6 @@
 body {
     font-family: "Montserrat";
-}
-
-#title {
-    background-color: #B0BEC5;
-    color: white;
-}
-
-.navbar-brand {
-    font-size: 1.7rem;
-    font-family: "Ubuntu";
-    font-weight: bold;
+    text-align: center;
 }
 
 h1 {
@@ -35,8 +25,20 @@ p {
     color: #8f8f8f;
 }
 
+#title {
+    background-color: #B0BEC5;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+
 .container-fluid {
-    padding: 3% 10%;
+    padding: 3% 10% 6%;
 }
 
 .row {
@@ -50,6 +52,7 @@ p {
 .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
+
 }
 
 .download-button {
@@ -57,13 +60,18 @@ p {
 }
 
 .iphone-image {
-    width: 80%;
+    width: 30%;
     transform: rotate(45deg);
+    position: absolute;
+    left: 55%;
 }
 
 #features {
     margin: auto;
     padding: 3% 6%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .features-box {
@@ -79,6 +87,7 @@ p {
     width: 10px;
 
 }
+
 #features .icon {
     color: #8f8f8f;
 }
@@ -89,9 +98,8 @@ p {
 }
 
 #testimonials {
-    text-align: center;
     background-color: #8f8f8f;
-    color: #fff; 
+    color: #fff;
 }
 
 .testimonial-image {
@@ -99,15 +107,17 @@ p {
     border-radius: 100%;
     margin: 20px;
 }
+
 .carousel-item {
     padding: 3% 6%;
 }
+
 #press {
     background-color: #8f8f8f;
     margin: auto;
     padding-bottom: 3%;
-    text-align: center;
 }
+
 .press-image {
     width: 15%;
     margin: 20px 20px 50px;
@@ -115,6 +125,40 @@ p {
 
 #pricing {
     margin: 10%;
-    text-align: center;
     font-family: "Montserrat-Bold";
+}
+
+#cta {
+    background-color: #8f8f8f;
+    color: #fff;
+    padding: 3% 6%;
+    margin-bottom: 5%;
+}
+
+#cta h3 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    background-color: #fff;
+    padding: 3% 6%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: #000;
+}
+
+@media (max-width: 992.3px) {
+    #title {
+        text-align: center;
+    }
+
+    .iphone-image {
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
 }
